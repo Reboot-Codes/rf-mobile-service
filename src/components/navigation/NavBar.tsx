@@ -90,7 +90,7 @@ export default function NavBar() {
       >
         <div className="flex flex-row h-full w-full">
           {/*<div className="w-[20%] h-full bg-gradient-to-l from-[rgba(0,0,0,0.5)]" onClick={() => setDrawer(!showDrawer)}/>*/}
-          <div className="w-full h-full backdrop-blur-lg bg-zinc-900 bg-opacity-40 text-white">
+          <div className="w-full h-full backdrop-blur-lg bg-zinc-800 text-white">
             <div className="flex flex-row items-center py-3">
               <h1 className="text-5xl font-bold pl-3">Menu</h1>
               <button
