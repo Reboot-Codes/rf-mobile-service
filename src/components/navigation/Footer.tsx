@@ -4,6 +4,9 @@ import React from "react";
 import Slogan from "../marketing/Slogan";
 import { links, scheduleLink } from "./NavBar";
 
+// Primary: @apply block p-3 rounded-md bg-brand-500 text-black transition ease-in-out motion-reduce:transition-none hover:bg-white hover:text-black font-bold text-center
+// Secondary: @apply block p-3 rounded-md border transition ease-in-out motion-reduce:transition-none hover:bg-white hover:text-black font-bold text-center
+
 export default function Footer() {
   const year = dayjs().get("year");
   /*const [tos, setTos] = React.useState([]);
@@ -65,15 +68,15 @@ export default function Footer() {
           </div>
         </div>
         <div className="grid md:grid-cols-2 gap-3">
-          <Link
+          {/*<Link
             className="block p-3 rounded-md bg-brand-500 text-black transition ease-in-out motion-reduce:transition-none hover:bg-white hover:text-black font-bold text-center"
             href={scheduleLink}
             target={scheduleLink.startsWith("/") ? "_self" : "_blank"}
           >
             Book Now
-          </Link>
+          </Link>*/}
           <Link
-            className="block p-3 rounded-md border transition ease-in-out motion-reduce:transition-none hover:bg-white hover:text-black font-bold text-center"
+            className="block p-3 rounded-md bg-brand-500 text-black transition ease-in-out motion-reduce:transition-none hover:bg-white hover:text-black font-bold text-center"
             href="tel:+15202367524"
           >
             Call Now

@@ -25,8 +25,8 @@ export const links: {
     to: "/faq",
   },
   {
-    name: "Schedule",
-    to: scheduleLink,
+    name: "Call",
+    to: "tel:+15202367524",
   },
 ];
 

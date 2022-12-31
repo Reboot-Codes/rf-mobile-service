@@ -16,19 +16,19 @@ function Hero() {
             <h1 className="text-4xl md:text-5xl font-bold">
               <Slogan />
             </h1>
-            <Link
-              className="block p-3 rounded-md bg-brand-500 text-black transition ease-in-out motion-reduce:transition-none hover:bg-white hover:text-black font-bold text-center"
-              href={scheduleLink}
-              target={scheduleLink.startsWith("/") ? "_self" : "_blank"}
-            >
-              Book Now
-            </Link>
-            <Link
-              className="block p-3 rounded-md border transition ease-in-out motion-reduce:transition-none hover:bg-white hover:text-black font-bold text-center"
-              href="tel:+15202367524"
-            >
-              Call Now
-            </Link>
+            {/*<Link
+            className="block p-3 rounded-md bg-brand-500 text-black transition ease-in-out motion-reduce:transition-none hover:bg-white hover:text-black font-bold text-center"
+            href={scheduleLink}
+            target={scheduleLink.startsWith("/") ? "_self" : "_blank"}
+          >
+            Book Now
+          </Link>*/}
+          <Link
+            className="block p-3 rounded-md bg-brand-500 text-black transition ease-in-out motion-reduce:transition-none hover:bg-white hover:text-black font-bold text-center"
+            href="tel:+15202367524"
+          >
+            Call Now
+          </Link>
             <p>
               With over 20 years of experience, we're here to get you back on
               the road wherever you might be in Tucson, AZ.
@@ -128,7 +128,7 @@ export default function Page() {
         // section to link to /faq, this is a work in progress.
       </div>*/}
       <Link
-        href={scheduleLink}
+        href="tel:+15202367524"
         className="px-3 min-h-[256px] bg-brand-500 text-black transition ease-in-out motion-reduce:transition-none hover:bg-white hover:text-black flex flex-row items-center"
         target={scheduleLink.startsWith("/") ? "_self" : "_blank"}
       >
@@ -137,7 +137,7 @@ export default function Page() {
             <span className="font-bold">Need a fix?</span>
             <br className="md:hidden" />
             <span className="hidden md:inline">&nbsp;</span>
-            Click to Book
+            Click to Call
           </h1>
           <BsChevronRight className="font-bold ml-auto" />
         </div>
