@@ -83,15 +83,7 @@ export default function Footer() {
           </Link>
         </div>
         <p className="mt-3 text-center">
-          Site developed by{" "}
-          <Link
-            href="https://www.reboot-codes.com"
-            target="_blank"
-            className="underline"
-          >
-            Ruben Flores
-          </Link>
-          . &copy; {year == 2022 ? "2022" : `2022-${year}`} Ruben Flores' Mobile
+          &copy; {year == 2022 ? "2022" : `2022-${year}`} Ruben Flores' Mobile
           Service and Repair LLC, All rights reserved.
         </p>
       </div>
